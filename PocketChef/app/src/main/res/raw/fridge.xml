@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fridge>
+	<ingredient>
+			<name>Chicken Thigh</name>
+			<unit>pound</unit>
+			<costperunit>3.20</costperunit>
+			<quantity>2</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Bacon</name>
+			<unit>pound</unit>
+			<costperunit>5.50</costperunit>
+			<quantity>0.5</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Milk</name>
+			<unit>cup</unit>
+			<costperunit>1.75</costperunit>
+			<quantity>8</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Egg</name>
+			<unit>egg</unit>
+			<costperunit>0.20</costperunit>
+			<quantity>12</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Butter</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.12</costperunit>
+			<quantity>32</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Spaghetti</name>
+			<unit>pound</unit>
+			<costperunit>1.20</costperunit>
+			<quantity>2</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Rice</name>
+			<unit>cup</unit>
+			<costperunit>0.30</costperunit>
+			<quantity>10</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Vegetable Oil</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.23</costperunit>
+			<quantity>96</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>40</quantity>
+	</ingredient>
+	<ingredient>
+			<name>Pepper</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>40</quantity>
+	</ingredient>
+</fridge>

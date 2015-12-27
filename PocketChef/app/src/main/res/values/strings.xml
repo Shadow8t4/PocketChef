@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">PocketChef</string>
+    <string name="action_settings">Edit</string>
+    <string name="app_label">appLabel</string>
+    <string name="search_hint">searchHint</string>
+    <string name="search_title">Search Recipes</string>
+    <string name="Edit">Edit</string>
+    <string name="Filter">Filter</string>
+    <string name="Back">Back</string>
+    <string name="title_activity_filter">filterActivity</string>
+    <string name="VeganRecipes">Vegan recipes</string>
+    <string name="NonDairy">Non-dairy recipes</string>
+    <string name="glutenFree">Gluten free recipes</string>
+    <string name="SeaFood">Sea food</string>
+    <string name="DieteticRecipe">Dietetic recipes</string>
+    <string name="HighFiber">High in fiber</string>
+    <string name="friedFood">Fried Food</string>
+    <string name="Dessert">Desserts</string>
+    <string name="AddButton">Add</string>
+    <string name="Fridge">Fridge</string>
+
+    <string name="title_activity_filter_menu">FilterMenu</string>
+    <string name="title_activity_recipe_details">RecipeDetails</string>
+    <string name="title_activity_add_recipe">AddRecipeActivity</string>
+    <string name="title_activity_edit_recipe">EditActivity</string>
+    <string name="title_activity_fridge">FridgeActivity</string>
+    <string name="title_activity_fridge_delete">FridgeDeleteActivity</string>
+    <string name="title_activity_fridge_add">FridgeAddActivity</string>
+    <string name="title_activity_ingr_add">AddIngrActivity</string>
+    <string name="title_activity_add_ingr_add">AddIngrAddActivity</string>
+    <string name="title_activity_delete_ingr_add">AddIngrDeleteActivity</string>
+    <string name="title_activity_ingr_edit">EditIngrActivity</string>
+    <string name="title_activity_add_ingr_edit">EditIngrAddActivity</string>
+    <string name="title_activity_delete_ingr_edit">EditIngrDeleteActivity</string>
+
+    <string name="AddRecipeTitle">New Recipe</string>
+    <string name="RecipeName">Name: </string>
+
+    <string name="Ingredientes">Ingredients: </string>
+
+    <string name="AddIngrTitle">Add/Delete Ingredient</string>
+    <string name="ingrunit">Units: </string>
+    <string name="ingrcost">Cost: </string>
+    <string name="ingramount">Amount: </string>
+
+    <string name="Appliances">Appliances Needed: </string>
+    <string name="PrepTime">Preparation Time: </string>
+    <string name="Instructions">Instructions: </string>
+    <string name="url">Image URL: </string>
+
+    <string name="name_hint">Name your recipe.</string>
+
+    <string name="ingr_name_hint">What is the name of the ingredient?</string>
+    <string name="ingr_unit_hint">What are the units?</string>
+    <string name="ingr_cost_hint">How much did it cost per unit?</string>
+    <string name="ingr_amount_hint">How many units do you have?</string>
+
+    <string name="prep_hint">How much time will this take?</string>
+    <string name="app_hint">What appliances are needed?</string>
+    <string name="inst_hint">How do you make it?</string>
+    <string name="url_hint">Add a URL to an image: </string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="photodisc">A Picture of the food.</string>
+
+    <string name="none">None</string>
+
+    <string name="minhint">Ex: 0</string>
+    <string name="maxhint">Ex: 600</string>
+
+    <string name="cost"> &#60; Cost &#60; </string>
+    <string name="time"> &#60; Time &#60; </string>
+</resources>

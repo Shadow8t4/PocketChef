@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipebook>
+	<recipe recipename="Scrambled Eggs">
+		<ingredient>
+			<name>Egg</name>
+			<unit>egg</unit>
+			<costperunit>0.15</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Whole Milk</name>
+			<unit>cup</unit>
+			<costperunit>1.00</costperunit>
+			<quantity>0.125</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Butter</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.09</costperunit>
+			<quantity>0.5</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.01</costperunit>
+			<quantity>0.5</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Pepper</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.01</costperunit>
+			<quantity>0.5</quantity>
+		</ingredient>
+		<appliance>Stove</appliance>
+		<time>15</time>
+		<cost>0.48</cost>
+		<image>http://tinyurl.com/q6or4u4</image>
+		<text>
+			<step>Beat together all ingredients.</step>
+			<step>Put butter in pan. Bring to medium heat until butter is melted. </step>
+			<step>Add egg mixture, and stir gently until done.</step>
+		</text>
+	</recipe>
+	<recipe recipename="Persian Chicken Kabobs">
+		<ingredient>
+			<name>Chicken Breast</name>
+			<unit>pound</unit>
+			<costperunit>3.00</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Onion</name>
+			<unit>cup</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Plain Yogurt</name>
+			<unit>cup</unit>
+			<costperunit>1.50</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Olive Oil</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>3</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Lime</name>
+			<unit>lime</unit>
+			<costperunit>0.20</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Saffron</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.01</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Pepper</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.01</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<appliance>Grill</appliance>
+		<time>480</time>
+		<cost>9.03</cost>
+		<image>http://tinyurl.com/otdtjcr</image>
+		<text>
+			<step>In a bowl combine the yogurt, onion, olive oil, lime juice, liquid saffron, salt and pepper.</step> 
+			<step>Blend well into a smooth mixture, adjust the seasoning with lime juice and salt and pepper.</step>
+			<step>Pour the mixture over the chicken in a large bowl, making sure that all the pieces are fully covered with the sauce.</step> 
+			<step>Cover with plastic wrap and refrigerate for 8 hours.</step>
+			<step>Thread the chicken pieces onto metal skewers, place the skewers on the hot grill and continue grilling until chicken pieces are well cooked. </step>
+			<step>Serve warm with pita bread or lavash.</step>
+		</text>
+	</recipe>
+	<recipe recipename="French Toast">
+		<ingredient>
+			<name>Half and Half</name>
+			<unit>cup</unit>
+			<costperunit>0.25</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Egg</name>
+			<unit>egg</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>3</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Honey</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.25</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>0.25</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Bread</name>
+			<unit>slices</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>8</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Butter</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>4</quantity>
+		</ingredient>
+		<appliance>Stove</appliance>
+		<time>30</time>
+		<cost>3.88</cost>
+		<image>http://tinyurl.com/jytjlgs</image>
+		<text>
+			<step>In medium size mixing bowl, whisk together the half-and-half, eggs, honey, and salt.</step> 
+			<step>Pour custard mixture into a pie pan and set aside.</step>
+			<step>Preheat oven to 375 degrees F. </step>
+			<step>Dip bread into mixture, allow to soak for 30 seconds on each side, and then remove to a cooling rack that is sitting in a sheet pan, and allow to sit for 1 to 2 minutes.</step>
+			<step>Over medium-low heat, melt 1 tablespoon of butter in a 10-inch nonstick saute pan.</step> 
+			<step>Place 2 slices of bread at a time into the pan and cook until golden brown, approximately 2 to 3 minutes per side. </step>
+			<step>Repeat with all 8 slices. Serve immediately.</step>
+		</text>
+	</recipe>
+	<recipe recipename="Toll House Chocolate Chip Cookies">
+		<ingredient>
+			<name>Flour</name>
+			<unit>cup</unit>
+			<costperunit>0.25</costperunit>
+			<quantity>2.25</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Baking Soda</name>
+			<unit>egg</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>3</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Butter</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.25</costperunit>
+			<quantity>16</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>White Sugar</name>
+			<unit>cup</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>0.75</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Brown Sugar</name>
+			<unit>cup</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>0.75</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Vanilla Extract</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>1</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Egg</name>
+			<unit>egg</unit>
+			<costperunit>0.50</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Chocolate Chips</name>
+			<unit>cup</unit>
+			<costperunit>1.00</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<appliance>Stove</appliance>
+		<time>30</time>
+		<cost>9.21</cost>
+		<image>http://tinyurl.com/zql8pzh</image>
+		<text>
+			<step>Preheat oven to 375 degrees F. </step>
+			<step>Combine flour, baking soda and salt in small bowl. </step>
+			<step>Beat butter, granulated sugar, brown sugar and vanilla extract in large mixer bowl until creamy.</step>
+			<step>Add eggs, one at a time, beating well after each addition.</step>
+			<step>Gradually beat in flour mixture. Stir in morsels and nuts. </step>
+			<step>Drop by rounded tablespoons onto ungreased baking sheets.</step>
+			<step>Bake for 9 to 11 minutes or until golden brown.</step>
+			<step>Cool on baking sheets for 2 minutes; remove to wire racks to cool completely. </step>
+		</text>
+	</recipe>
+	
+	<recipe recipename="Twice Baked Potatoes">
+		<ingredient>
+			<name>Russet Potato</name>
+			<unit>potato</unit>
+			<costperunit>0.35</costperunit>
+			<quantity>2</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Olive Oil</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>0.5</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Sour Cream</name>
+			<unit>cup</unit>
+			<costperunit>1.50</costperunit>
+			<quantity>0.25</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Milk</name>
+			<unit>cup</unit>
+			<costperunit>1.75</costperunit>
+			<quantity>0.25</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Butter</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.12</costperunit>
+			<quantity>1.0</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Chives</name>
+			<unit>tablespoon</unit>
+			<costperunit>0.03</costperunit>
+			<quantity>2.0</quantity>
+		</ingredient>
+		<ingredient>
+			<name>Salt</name>
+			<unit>teaspoon</unit>
+			<costperunit>0.10</costperunit>
+			<quantity>0.5</quantity>
+		</ingredient>
+		<appliance>Oven</appliance>
+		<time>105</time>
+		<cost>1.00</cost>
+		<image>http://tinyurl.com/zyvjyn8</image>
+		<text>
+			<step>Preheat the oven to 400°F.</step>
+			<step>Scrub the potatoes clean under running water.</step> 
+			<step>Poke each potato in several places with a fork so that when the potatoes are cooking they don't explode.</step> 
+			<step>Rub the potatoes all over with a little olive oil.</step>
+			<step>Place directly on the middle or top rack of the oven.</step> 
+			<step>Cook for 1 hour and 15 minutes, or until the potatoes are cooked through. They should give a little when pressed.</step>
+			<step>Slice potatoes in half, and carefully scoop out the centers into a bowl.</step>
+			<step>Place the scooped out potato insides, sour cream, milk, cream, and butter into a large bowl. Mash with a potato masher.</step>
+			<step>Spoon fillings into the potato shells.</step> 
+			<step>Heat oven to 350°F.</step> 
+			<step>Place potatoes on a roasting pan and bake 15 to 20 minutes until heated through.</step>
+		</text>
+	</recipe>	
+</recipebook>

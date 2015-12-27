@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FridgeActivity">
+
+    <item
+        android:id="@+id/fridge_add"
+        android:title="@string/AddButton"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/fridge_delete"
+        android:title="@string/delete"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/fridge_search"
+        android:orderInCategory="5"
+        android:title="@string/search_title"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+</menu>

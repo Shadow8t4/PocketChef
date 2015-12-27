@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_recipe_details"
+    tools:context="com.example.owner1.pocketchef.RecipeDetails"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="?attr/actionBarSize"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/photodisc"
+            android:id="@+id/details_image"
+            android:src="@drawable/loading"
+            />
+
+        <TextView
+            android:layout_below="@id/details_image"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/RecipeName"
+            android:id="@+id/recipename"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/recipename"
+            android:layout_toRightOf="@id/recipename"
+            android:layout_toEndOf="@id/recipename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_below="@id/name_text"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Ingredientes"
+            android:id="@+id/ingredients"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/ingredients"
+            android:layout_toRightOf="@id/ingredients"
+            android:layout_toEndOf="@id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingr_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_below="@id/ingr_text"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ingrcost"
+            android:id="@+id/cost"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/cost"
+            android:layout_toRightOf="@id/cost"
+            android:layout_toEndOf="@id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cost_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_below="@id/cost_text"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/PrepTime"
+            android:id="@+id/preptime"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/preptime"
+            android:layout_toRightOf="@id/preptime"
+            android:layout_toEndOf="@id/preptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/prep_text"
+            />
+
+        <TextView
+            android:layout_below="@id/prep_text"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Appliances"
+            android:id="@+id/appliances"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/appliances"
+            android:layout_toRightOf="@id/appliances"
+            android:layout_toEndOf="@id/appliances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/app_text"
+            />
+
+        <TextView
+            android:layout_below="@id/app_text"
+            android:layout_alignLeft="@id/details_image"
+            android:layout_alignStart="@id/details_image"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Instructions"
+            android:id="@+id/instructions"
+            />
+
+        <TextView
+            android:layout_alignTop="@id/instructions"
+            android:layout_toRightOf="@id/instructions"
+            android:layout_toEndOf="@id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/inst_text"
+            />
+
+    </RelativeLayout>
+</ScrollView>

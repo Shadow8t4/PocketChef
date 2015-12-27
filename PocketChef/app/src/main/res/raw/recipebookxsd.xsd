@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name='recipebook'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='recipe' type='RecipeType' minOccurs='0' maxOccurs='unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="IngredientType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="unit" type="xs:string"/>
+            <xs:element name="costperunit" type="xs:decimal"/>
+            <xs:element name="quantity" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="InstructionType">
+        <xs:sequence>
+            <xs:element name='step' type='xs:string' minOccurs='0' maxOccurs='unbounded' />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="RecipeType">
+        <xs:sequence>
+            <xs:element name="ingredient" type="IngredientType" minOccurs='0' maxOccurs='unbounded'/>
+            <xs:element name="appliance" type="xs:string"/>
+            <xs:element name="time" type="xs:positiveInteger"/>
+            <xs:element name="cost" type="xs:decimal"/>
+            <xs:element name="image" type="xs:anyURI"/>
+            <xs:element name="text" type="InstructionType"/>
+        </xs:sequence>
+        <xs:attribute name="recipename" type="xs:string" use="required"/>
+    </xs:complexType>
+
+</xs:schema>

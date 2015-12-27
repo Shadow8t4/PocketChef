@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name='fridge'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='ingredient' type='IngredientType' minOccurs='0' maxOccurs='unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="IngredientType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="unit" type="xs:string"/>
+            <xs:element name="costperunit" type="xs:decimal"/>
+            <xs:element name="quantity" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
