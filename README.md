@@ -1,4 +1,6 @@
-# RecipeBook
+# PocketChef
+
+A basic recipe management app for Android devices. It stores recipe data through xml files. This will be changed eventually.
 
 ### Installation instructions ###
 
